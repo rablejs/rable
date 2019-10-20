@@ -1,0 +1,28 @@
+{
+  "name": "@rable/rable",
+  "version": "0.1.0",
+  "description": "JS Transpiler with the power of Rust",
+  "keywords": [
+    "rable"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rablejs/rable"
+  },
+  "author": "Charles Pierce <cpierce.grad@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.3.2"
+  },
+  "scripts": {
+    "install": "neon build"
+  },
+  "bugs": {
+    "url": "https://github.com/rablejs/rable/issues"
+  },
+  "homepage": "https://github.com/rablejs/rable#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

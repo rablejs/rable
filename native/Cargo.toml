@@ -1,0 +1,17 @@
+[package]
+name = "rable"
+version = "0.1.0"
+authors = ["Charles Pierce <cpierce.grad@gmail.com>"]
+license = "MIT"
+build = "build.rs"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "rable"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+neon-build = "0.3.2"
+
+[dependencies]
+neon = "0.3.2"
