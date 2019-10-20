@@ -15,14 +15,15 @@
   "dependencies": {
     "neon-cli": "^0.3.2"
   },
-  "scripts": {
-    "install": "neon build"
-  },
   "bugs": {
     "url": "https://github.com/rablejs/rable/issues"
   },
   "homepage": "https://github.com/rablejs/rable#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "volta": {
+    "node": "10.16.3",
+    "yarn": "1.19.1"
   }
 }
