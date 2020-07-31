@@ -13,7 +13,8 @@
   "author": "Charles Pierce <cpierce.grad@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "neon-cli": "^0.4.0"
+    "neon-cli": "^0.4.0",
+    "semver": "^7.3.2"
   },
   "bugs": {
     "url": "https://github.com/rablejs/rable/issues"
@@ -21,6 +22,9 @@
   "homepage": "https://github.com/rablejs/rable#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "start": "node lib/index.js"
   },
   "volta": {
     "node": "12.18.3"
