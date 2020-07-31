@@ -13,7 +13,7 @@
   "author": "Charles Pierce <cpierce.grad@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "neon-cli": "^0.3.2"
+    "neon-cli": "^0.4.0"
   },
   "bugs": {
     "url": "https://github.com/rablejs/rable/issues"
@@ -23,7 +23,6 @@
     "access": "public"
   },
   "volta": {
-    "node": "10.16.3",
-    "yarn": "1.19.1"
+    "node": "12.18.3"
   }
 }
