@@ -15,4 +15,4 @@ crate-type = ["cdylib"]
 neon-build = "0.3.2"
 
 [dependencies]
-neon = "0.3.2"
+neon = "0.10.1"
